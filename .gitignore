@@ -1,0 +1,75 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]eleases/
+[Rr]eleasesPublic/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Ll]ogs/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code directory
+.vscode/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.dll
+*.exe
+
+# Visual Studio temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.swp
+
+# Compiled dynamic libraries
+*.dll
+*.so
+*.dylib
+
+# Compiled object files
+*.obj
+*.o
+
+# Compiled executable files
+*.exe
+*.out
+*.app
+
+# Others
+*.log
+*.pdb
+*.cache
+*.csproj.user
+*.csproj.*
+*.dll
+*.exe
+*.cache
+*.pdb
+*.vs/
+
+# Local configuration files
+*.config
+
+# Miscellaneous
+*.dbmdl
+*.dbproj.schemaview
+*.dbproj
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+
+# JetBrains Rider directory
+.idea/

@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Services">
+      <UniqueIdentifier>{c6977d46-7f25-4707-91a7-d60e5cba4976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services\Header Files">
+      <UniqueIdentifier>{5df0469d-cc2a-4862-96e0-e7d3bdefa78d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services\Source Files">
+      <UniqueIdentifier>{aabccb03-0eb4-41e5-9824-21ee2a1710c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services\Header Files\Mouse">
+      <UniqueIdentifier>{2e55d779-9931-4ecf-850d-d31f39f2a328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services\Source Files\Mouse">
+      <UniqueIdentifier>{e82af349-89bd-41a7-a9f6-880f72e58fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{e267895a-cb49-448d-80ac-d873a582754e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Win32">
+      <UniqueIdentifier>{8bcea559-1fbe-4193-9bd9-86761095a465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Win32\Header Files">
+      <UniqueIdentifier>{941e97b9-e5d0-4ad6-b2a5-c3980d60801a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Win32\Header Files\Functions">
+      <UniqueIdentifier>{e2fa7477-4a4f-47b1-a426-1593ddaecb80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Win32\Header Files\Functions\Window">
+      <UniqueIdentifier>{6aa1ab86-4ae1-49cb-a192-e97c5fec1fca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Win32\Source FIles">
+      <UniqueIdentifier>{91c895c6-5003-4f27-a116-af08a2ebbf77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Win32\Source FIles\Functions">
+      <UniqueIdentifier>{59cbb3fb-6917-4e56-b36b-99993d68f9d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Win32\Source FIles\Functions\Window">
+      <UniqueIdentifier>{3309d066-e323-411c-b22e-c1b5f1a7aa2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Win32\Header Files\Hooks">
+      <UniqueIdentifier>{ae2a86eb-b961-4206-bd3a-2bfc84c33dc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Test\Win32\Header Files\Hooks\MouseHooks">
+      <UniqueIdentifier>{903c3324-fd5e-451e-961e-5d1cbf8096f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Win32\Source FIles\Hooks">
+      <UniqueIdentifier>{2a4cdb7d-493c-4d17-81b3-cb6c743d1a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Win32\Source FIles\Hooks\MouseHooks">
+      <UniqueIdentifier>{b61a143a-7516-41a3-b450-1ce5200aedad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Win32\Monitor">
+      <UniqueIdentifier>{16eb45d0-4f5c-4e0a-b040-9d85a8533944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Win32\Monitor\File">
+      <UniqueIdentifier>{32553357-b132-4f5f-8aa9-6dfb0294dcee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Win32\Monitor\Item">
+      <UniqueIdentifier>{735922ec-b098-4773-a514-89d145d0ee1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Win32\Source FIles\Monitor">
+      <UniqueIdentifier>{9a130a89-2ed9-4178-8133-01e936315df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Win32\Source FIles\Monitor\File">
+      <UniqueIdentifier>{ddde1830-1d55-47e2-9163-4211e7e09e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Win32\Source FIles\Monitor\Item">
+      <UniqueIdentifier>{201e3a96-0714-4b81-9db3-efc9ade0d23e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WrapperWin32">
+      <UniqueIdentifier>{cc450495-33e3-423b-9261-56779a14508f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WrapperWin32\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="WrapperWin32\Header Files\Hooks">
+      <UniqueIdentifier>{fd9b09d2-7f23-4df8-a474-e4637f30920d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WrapperWin32\Header Files\Hooks\MouseHooks">
+      <UniqueIdentifier>{bc683f23-41d4-42cb-9f94-5631a1c082d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WrapperWin32\Header Files\Functions">
+      <UniqueIdentifier>{1aba6d5c-cb1c-4234-b53a-e24adf983869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WrapperWin32\Header Files\Functions\Window">
+      <UniqueIdentifier>{55392f15-b5a1-4621-bb54-cd2a05f4f26f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WrapperWin32\Header Files\Monitor">
+      <UniqueIdentifier>{b4fd470f-fe6f-4620-9c16-8a3df7631896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WrapperWin32\Header Files\Monitor\File">
+      <UniqueIdentifier>{37582706-8244-4ccf-9135-7adce64aaddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WrapperWin32\Header Files\Monitor\Item">
+      <UniqueIdentifier>{4d3fb755-7f0c-47ac-9edc-d37a1d50b204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WrapperWin32\Source Files">
+      <UniqueIdentifier>{7ef6d115-4540-4966-b8f9-c21a6c0ffb26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WrapperWin32\Source Files\Hooks">
+      <UniqueIdentifier>{aad9e215-a479-4958-8ae2-82b3c88a4961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WrapperWin32\Source Files\Hooks\MouseHooks">
+      <UniqueIdentifier>{bfe64842-040b-436d-9b4a-522a9eeebd95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WrapperWin32\Source Files\Functions">
+      <UniqueIdentifier>{fdc20945-410a-41e5-b1dd-2535db5228fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WrapperWin32\Source Files\Functions\Window">
+      <UniqueIdentifier>{8797ceaa-df55-4241-83b7-2d6450c76315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WrapperWin32\Source Files\Monitor">
+      <UniqueIdentifier>{ab0167ee-ace5-4032-a27e-1fa520949ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WrapperWin32\Source Files\Monitor\File">
+      <UniqueIdentifier>{eebf6373-ede1-40f7-b126-f5cfca612e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WrapperWin32\Source Files\Monitor\Item">
+      <UniqueIdentifier>{aefb0df4-c7fd-4ce3-8c33-2f48df476890}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>WrapperWin32\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>WrapperWin32\Header Files\Functions\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseCoordinatesService.h">
+      <Filter>Services\Header Files\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Monitor.h">
+      <Filter>WrapperWin32\Header Files\Monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="FileMonitor.h">
+      <Filter>WrapperWin32\Header Files\Monitor\File</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemMonitor.h">
+      <Filter>WrapperWin32\Header Files\Monitor\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseCoordinates.h">
+      <Filter>WrapperWin32\Header Files\Hooks\MouseHooks</Filter>
+    </ClInclude>
+    <ClInclude Include="HookServiceTest.h">
+      <Filter>Test\Win32\Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseCoordinatesTest.h">
+      <Filter>Test\Win32\Header Files\Hooks\MouseHooks</Filter>
+    </ClInclude>
+    <ClInclude Include="FileMonitorTest.h">
+      <Filter>Test\Win32\Monitor\File</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemMonitorTest.h">
+      <Filter>Test\Win32\Monitor\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="TestMain.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="HookService.h">
+      <Filter>WrapperWin32\Header Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseHooksImpl.cpp">
+      <Filter>WrapperWin32\Source Files\Hooks\MouseHooks</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowImpl.cpp">
+      <Filter>WrapperWin32\Source Files\Functions\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="FileMonitorImpl.cpp">
+      <Filter>WrapperWin32\Source Files\Monitor\File</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemMonitorImpl.cpp">
+      <Filter>WrapperWin32\Source Files\Monitor\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseCoordinatesImpl.cpp">
+      <Filter>Services\Source Files\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="HookServiceImpl.cpp">
+      <Filter>WrapperWin32\Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowTest.h">
+      <Filter>Test\Win32\Header Files\Functions\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowTestImpl.cpp">
+      <Filter>Test\Win32\Source FIles\Functions\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.h">
+      <Filter>Test\Win32\Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseCoordinatesTestImpl.cpp">
+      <Filter>Test\Win32\Source FIles\Hooks\MouseHooks</Filter>
+    </ClCompile>
+    <ClCompile Include="HookServiceTestImpl.cpp">
+      <Filter>Test\Win32\Source FIles\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="FileMonitorTestImpl.cpp">
+      <Filter>Test\Win32\Source FIles\Monitor\File</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemMonitorTestImpl.cpp">
+      <Filter>Test\Win32\Source FIles\Monitor\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMain.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MouseEvents.md" />
+    <None Include=".gitignore" />
+  </ItemGroup>
+</Project>
