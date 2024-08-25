@@ -22,6 +22,8 @@ public:
 	static std::string getExeFilePathFromHandle(HANDLE handle); //Get file path from handle
 
 	static bool closeHandle(HANDLE handle); //Close the handle
+
+	static std::string getWindowTitle(const HWND hwnd);
 };
 
 

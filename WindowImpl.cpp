@@ -67,7 +67,25 @@ std::string WindowAPI::getExeFilePathFromHandle(HANDLE handle){
 
 
 
+//Get the title of the window from the handle to the window
+/*int GetWindowTextA(
+	[in]  HWND  hWnd,
+	[out] LPSTR lpString,
+	[in]  int   nMaxCount
+);*/
+
+
+std::string  WindowAPI::getWindowTitle(const HWND hwnd) {
+	char title[MAX_PATH];
+
+	if (GetWindowTextA(hwnd, title, MAX_PATH)) {
+		return std::string(title);
+	}
+	return std::string();
+}
+
 //Function to close the handle
 bool WindowAPI::closeHandle(HANDLE handle) {
 	return CloseHandle(handle);
 }
+

@@ -13,6 +13,7 @@
 class MouseCoordinates : public HookService {
 public:
 
+
     MouseCoordinates();
     MouseCoordinates(Monitor* _callBack);
     static void monitorPoints(POINT point);

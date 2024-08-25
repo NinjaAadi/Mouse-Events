@@ -14,7 +14,6 @@ void MouseCoordinatesService::startMonitor(){
 
 		 TranslateMessage(&msg);
 		 DispatchMessage(&msg);
-
 	 }
 }
 
@@ -30,7 +29,7 @@ MouseCoordinatesService::~MouseCoordinatesService(){
 */
 MouseCoordinatesService::MouseCoordinatesService() {
 	setHighDPIAwareness();	
-	win32MouseCoordinates = MouseCoordinates(new FileMonitor(new ItemMonitor()));
+	win32MouseCoordinates = MouseCoordinates(new FileMonitor(new ItemMonitor(new WindowTitleMonitor())));
 	win32MouseCoordinates.setHook();
 
 }

@@ -2,8 +2,7 @@
 #include "MouseCoordinates.h"
 #include "FileMonitor.h"
 #include "ItemMonitor.h"
-
-
+#include "WindowTitleMonitor.h"
 
 
 /*

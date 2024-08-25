@@ -22,4 +22,6 @@ class HookService {
 		virtual void unregisterHook() = 0;
 };
 
-
+/*
+	HHOOK -> Handle to the hook
+*/
